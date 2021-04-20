@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Total: <span id="snackTotal"></span></h2>
+        <button type="submit">Lime Cola $2.00</button>
+        <button type="submit">Salted Peanuts $3.00</button>
+        <button type="submit">Chocolate Bar $4.00</button>
+        <button type="submit">Fruit Gummies $6.00</button>
+
+
+        <form id="coinForm">
+            <label for="count">How Many?</label>
+            <input type="number" id="count" name="count">
+            <label for="type">Which coin?</label>
+            <select name="type" id="type" form="coinForm">
+                <option value="Penny">Penny</option>
+                <option value="Nickel">Nickel</option>
+                <option value="Dime">Dime</option>
+                <option value="Quarter">Quarter</option>
+            </select>
+            <button type="submit" id="button">Make Money!</button>
+        </form>
+        <h2>Total: <span id="total"></span></h2>
+        
+        <div id="coinArea">
+            <!-- <div class="coin">
+                <span>Quarter</span>
+            </div> -->
+        </div>
+        
+
+
+        <div id="lightbulb">Light Bulb</div>
+        <button type="submit">On</button>
+        <button type="submit">Off</button>
+        <button type="submit">Toggle</button>
+        <button type="submit">End</button>
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>
